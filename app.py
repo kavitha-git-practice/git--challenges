@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+<<<<<<< HEAD
     return "Hi"
+=======
+    return "Hello EC2 sever!"
+>>>>>>> 6453ab5a3bb0961c2096fb4d9392c1044bebcb6e
 
 @app.route("/health")
 def health():
